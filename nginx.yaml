@@ -3,7 +3,7 @@ kind: Pod
 metadata:
   name: nginx-2
   labels:
-    env: Production
+    app: myapp
 spec:
   containers:
   - name: nginx
@@ -12,5 +12,3 @@ spec:
       limits:
         memory: "128Mi"
         cpu: "500m"
-
-  
